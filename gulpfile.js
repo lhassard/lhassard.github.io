@@ -25,7 +25,9 @@ gulp.task('browser-sync', gulp.series("sass",function() {
             baseDir: "./"
         }
     });
+    gulp.watch("scss/*.scss",gulp.parallel("sass"));
     gulp.watch("**/*.html").on('change', browserSync.reload);
+    
+    
 }));
-
 gulp.task('default', gulp.parallel('browser-sync'));

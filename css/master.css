@@ -2,4 +2,16 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .red {
-  color: red; }
+  color: yellow;
+  font-family: "comic Sans MS";
+  display: block;
+  margin: 0 auto; }
+
+ul li a {
+  color: yellow; }
+
+.jumbotron {
+  background-color: yellow;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  opacity: 0.6; }

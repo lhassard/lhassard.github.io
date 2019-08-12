@@ -1,3 +1,9 @@
-.red{
-    color: red;
+$prim-colour: yellow;
+$sec-colour: #831045;
+$comicsans: "comic Sans MS";
+
+.red {
+    color: $prim-colour;
+    font-family:$comicsans;
+    @include center;
 }
